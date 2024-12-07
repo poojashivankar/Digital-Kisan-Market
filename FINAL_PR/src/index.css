@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.sec-title__title {
+    font-size: 40px;
+    line-height: 1em;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: -0.04em;
+    font-family:cursive;
+}
+.home_slider img {
+    opacity: 0.8;
+}
+.home_slider ul.slick-dots {
+    position: absolute;
+    bottom: 10px;
+}
+.right-ar {
+    padding: 13px 14px;
+    margin: 10px 0px 0px 0px;
+    border-radius: 50px;
+    background: #f1cf69;
+}
+.tc_img {
+    height: 81px;
+    width: 160px !important;
+    border-radius: 10px;
+}
